@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://formspree.io/f/ton-endpoint', { // Remplace par ton endpoint Formspree
+      const response = await fetch('https://formspree.io/f/xregvjvl', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

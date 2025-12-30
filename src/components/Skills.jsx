@@ -3,25 +3,26 @@ import {
   FaJsSquare,
   FaHtml5,
   FaCss3Alt,
-  FaGitAlt
+  FaGitAlt,
+  FaNode
 } from 'react-icons/fa';
-import { SiVite, SiJest } from 'react-icons/si';
+import { SiVite, SiJest, SiExpress } from 'react-icons/si';
 import styles from '../styles/Skills.module.css';
 
 const Skills = () => {
   return (
     <section className={styles.skills} id="skills">
       <div className={styles.header}>
-        <h1>Skills & Technologies</h1>
+        <h1>Compétences & Technologies</h1>
         <p className={styles.subtitle}>
-          Technologies que j’ai apprises et utilisées durant le semestre
+          Technologies que j’ai apprises et utilisées 
         </p>
       </div>
 
       <div className={styles.categories}>
 
         <div className={styles.category}>
-          <h2>Languages</h2>
+          <h2>Langages</h2>
           <div className={styles.icons}>
             <div className={styles.iconItem}>
               <FaJsSquare />
@@ -39,7 +40,7 @@ const Skills = () => {
         </div>
 
         <div className={styles.category}>
-          <h2>Frameworks & Libraries</h2>
+          <h2>Frameworks & Bibliothèques</h2>
           <div className={styles.icons}>
             <div className={styles.iconItem}>
               <FaReact />
@@ -49,7 +50,7 @@ const Skills = () => {
         </div>
 
         <div className={styles.category}>
-          <h2>Tools</h2>
+          <h2>Outils & Backend</h2>
           <div className={styles.icons}>
             <div className={styles.iconItem}>
               <SiVite />
@@ -62,6 +63,14 @@ const Skills = () => {
             <div className={styles.iconItem}>
               <SiJest />
               <span>Jest</span>
+            </div>
+            <div className={styles.iconItem}>
+              <FaNode />
+              <span>Node.js</span>
+            </div>
+            <div className={styles.iconItem}>
+              <SiExpress />
+              <span>Express.js</span>
             </div>
           </div>
         </div>

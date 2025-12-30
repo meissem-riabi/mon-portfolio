@@ -28,17 +28,7 @@ const ProjectCard = ({ title, description, tech, github, demo }) => {
           <span>Code</span>
         </a>
 
-        {demo && (
-          <a
-            href={demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.demo}
-          >
-            <FaExternalLinkAlt />
-            <span>Live</span>
-          </a>
-        )}
+        
       </div>
     </article>
   );
